@@ -31,7 +31,7 @@ int main()
 
 	if(phepToan == "*")
 		cout<<"Tich 2 so = "<<tich(a, b)<<endl;
-
+	cout<<endl;
 	system("pause");
 	return 0;
 }
