@@ -12,9 +12,10 @@ int tich(int a, int b)
 {
 	return a*b;
 }
+
 int main()
 {
-	int a, b;
+	int a, b
 	char phepToan;
 	cout << "Nhap so nguyen 1: ";
 	cin >> a;
@@ -22,7 +23,7 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-,*) ";
 	cin >> phepToan;
-
+	
 	if(phepToan == "-")
 		cout<<"Hieu 2 so = "<<hieu(a, b)<<endl;
 
@@ -32,6 +33,7 @@ int main()
 	if(phepToan == "*")
 		cout<<"Tich 2 so = "<<tich(a, b)<<endl;
 	cout<<endl;
+	//Cau 19
 	system("pause");
 	return 0;
 }
