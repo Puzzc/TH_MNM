@@ -12,6 +12,7 @@ int tich(int a, int b)
 {
 	return a*b;
 }
+
 int ktchanle(int a)
 {
 	if(a%2==0)
@@ -19,6 +20,7 @@ int ktchanle(int a)
 	else
 		return 0;
 }
+
 int main()
 {
 	int a, b, ktcl;
@@ -44,7 +46,6 @@ int main()
 	if(phepToan == "*")
 		cout<<"Tich 2 so = "<<tich(a, b)<<endl;
 	cout<<endl;
-//Cau 19
 	system("pause");
 	return 0;
 }
